@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	
+	<definition name="baseLayout" template="/WEB-INF/tiles/template/baseLayout.jsp">
+		<put-attribute name="title" value="Sample Title" />
+		<put-attribute name="header" value="/WEB-INF/tiles/template/header.jsp" />
+ 		<put-attribute name="menu" value="/WEB-INF/tiles/template/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/template/footer.jsp" />
+	</definition>
+
+ 	<definition name="welcome" extends="baseLayout">
+		<put-attribute name="title" value="Welcome" />
+ 		<put-attribute name="body" value="/WEB-INF/views/welcome.jsp" />
+	</definition>
+	
+	<definition name="login" extends="baseLayout">
+		<put-attribute name="title" value="Login" />
+ 		<put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+	</definition>
+	
+	<definition name="admin" extends="baseLayout">
+		<put-attribute name="title" value="Admin" />
+ 		<put-attribute name="body" value="/WEB-INF/views/admin.jsp" />
+	</definition>
+	
+	<definition name="staff" extends="baseLayout">
+		<put-attribute name="title" value="Staff" />
+ 		<put-attribute name="body" value="/WEB-INF/views/staff.jsp" />
+	</definition>
+	
+	<definition name="student" extends="baseLayout">
+		<put-attribute name="title" value="Student" />
+ 		<put-attribute name="body" value="/WEB-INF/views/student.jsp" />
+	</definition>
+	
+	<definition name="register" extends="baseLayout">
+		<put-attribute name="title" value="Register" />
+ 		<put-attribute name="body" value="/WEB-INF/views/register.jsp" />
+	</definition>
+	
+	<!-- <definition name="error-forbidden" extends="baseLayout">
+		<put-attribute name="title" value="Error" />
+ 		<put-attribute name="body" value="/WEB-INF/views/error-forbidden.jsp" />
+	</definition> -->
+	
+<!-- 	<definition name="login" extends="baseLayout">
+		<put-attribute name="title" value="Login" />
+ 		<put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+	</definition> -->
+	 	
+</tiles-definitions>
