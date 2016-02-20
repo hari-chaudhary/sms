@@ -19,7 +19,7 @@
 
 	<security:authorize access="isAuthenticated()">
 		<div class="align-horizontal">
-			<a href="#">logout</a>
+			<a href="welcome">logout</a>
 		</div>
 	</security:authorize>
 

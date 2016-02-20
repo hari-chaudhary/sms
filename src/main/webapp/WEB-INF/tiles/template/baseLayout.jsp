@@ -25,13 +25,12 @@
 
 <body>
 
-
 	<div class="container">
 		<div class="header">
 			<div>
-				<a href="/SchoolManagementSystem/welcome">
-				<img alt="logo"
-					src="/SchoolManagementSystem/resource/images/school.jpg" class="logo">
+				<a href="/SchoolManagementSystem/welcome"> <img alt="logo"
+					src="/SchoolManagementSystem/resource/images/school.jpg"
+					class="logo">
 				</a>
 				<ul class="header-title">
 					<tiles:insertAttribute name="header" />
