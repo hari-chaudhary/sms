@@ -13,6 +13,20 @@
 
 <title><tiles:insertAttribute name="title" /></title>
 
+<script type="text/javascript"
+	src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript"
+	src="<spring:url value="/resource/js/ajax.js"/>"></script>
+<!-- <style type="text/css">
+@import
+url(
+"<spring:url value="
+/
+resource
+/css/rest.css"/>");
+</style> -->
+<link rel="stylesheet" type="text/css"
+	href="/SchoolManagementSystem/resource/css/rest.css" />
 <link rel="stylesheet" type="text/css"
 	href="/SchoolManagementSystem/resource/css/main.css" />
 <link href="http://getbootstrap.com/dist/css/bootstrap.css"

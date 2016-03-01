@@ -39,7 +39,7 @@
 
 	<bean id="messageSource"
 		class="org.springframework.context.support.ResourceBundleMessageSource">
-		<property name="basename" value="errorMessages" />
+		<property name="basename" value="errorMessages, messages" />
 	</bean>
 
 	<mvc:resources location="/resources/" mapping="/resource/**" />
